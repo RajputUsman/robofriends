@@ -12,3 +12,10 @@ h1{
     font-weight: 200;
     color: #0ccac4;
 }
+
+
+@media screen and ( max-height: 900px ) { 
+    .hrs{
+        margin-bottom: 6em;
+    }
+}

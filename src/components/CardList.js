@@ -4,7 +4,7 @@ import Card from './Card';
 const CardList = ({robots}) => {
 
     return(
-        <div className="mt3 ph3">
+    <div className="mt3 ph3 hrs">
          {robots.map((user, i) =>  {
              return (
             <Card key={i}
@@ -14,12 +14,9 @@ const CardList = ({robots}) => {
             />
         );
         
-    }
+     })}
     
-    
-    )}
-    
-        </div>  
+    </div>  
     );
 }
 
