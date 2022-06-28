@@ -14,7 +14,7 @@ h1{
 }
 
 
-@media screen and ( max-height: 900px ) { 
+@media screen and ( max-height: 1200px ) { 
     .hrs{
         margin-bottom: 12em;
     }
