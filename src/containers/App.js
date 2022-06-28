@@ -36,7 +36,7 @@ class App extends Component {
             robot.name.toLowerCase().includes(searchField.toLowerCase()
             ));  
         
-        // if the length is zero then not the value to true            
+        // if the length is zero then Logical NOT convert the condition to true           
         return !robots.length ?
             
          <h1 className="f1 ma0 flex justify-center items-center vh-100"> Loading </h1>
