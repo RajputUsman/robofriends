@@ -20,7 +20,7 @@ class App extends Component {
             return response.json();
         }).then(users => {
             
-            // this.setState({robots:users})
+            this.setState({robots:users})
         })
     }
 
