@@ -37,7 +37,7 @@ class App extends Component {
 
     if(this.state.robots.length === 0){
         
-        return <h1 className="tc f1 flex justify-center items-center vh-100"> Loading </h1>;
+        return <h1 className="f1 ma0 flex justify-center items-center vh-100"> Loading </h1>;
     } else{
         return(
 
